@@ -1,0 +1,26 @@
+/* styles/fonts.css */
+@font-face {
+    font-family: 'mentra';
+    src: url('/public/fonts/MENTRA.otf');
+  }
+  @font-face {
+    font-family: 'beckan';
+    src: url('/public/fonts/Beckan.otf');
+  }
+  @font-face {
+    font-family: 'gill sans';
+    src: url('/public/fonts/GillSans.otf');
+  }
+  @font-face {
+    font-family: 'gill roy';
+    src: url('/public/fonts/Gilroy-Black.ttf');
+  }
+  @font-face {
+    font-family: 'heavitas';
+    src: url('/public/fonts/Heavitas.ttf');
+  }
+  @font-face {
+    font-family: 'pearce';
+    src: url('/public/fonts/Pearce.ttf');
+  }
+  
