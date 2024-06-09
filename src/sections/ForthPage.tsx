@@ -1,9 +1,9 @@
 function ForthPage() {
   return (
-    <div className=" bg-lime-200 h-[75vh]  w-screen gap-5 flex flex-col  justify-center items-center">
+    <div className=" bg-[#C9FF31] h-[75vh]  w-screen gap-5 flex flex-col  justify-center items-center" id="forthPage">
       <div className="flex flex-col gap-10 ">
         <h1 className="text-5xl text-center font-bold font-gill-roy">JOIN SHOPPING COMMUNITY TO <br /> GET MONTHLY PROMO</h1>
-        <p className="text-2xl font-[500] text-center ">Enter your email and you will receive a conformation</p>
+        <p className="text-2xl  font-[500] text-center ">Enter your email and you will receive a conformation</p>
       </div>
 
       <form action="#" method="get">

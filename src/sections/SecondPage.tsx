@@ -35,11 +35,11 @@ const SecondPage: React.FC = () => {
   //   const randomIndex = Math.floor(Math.random() * (products.length - 3));
 
   return (
-    <div className="flex flex-col justify-center text-black h-screen w-screen bg-yellow-500">
-      <h2 className="text-5xl font-heavitas ml-20 ">New Arrivals</h2>
+    <div className="flex flex-col justify-center text-black h-screen w-screen bg-[#FF572E]" id="secondPage">
+      <h2 className="text-5xl font-heavitas ml-20 text-[#18ff13] w-fit border-b-[7px] border-black ">New Arrivals</h2>      
       {products.length > 0 ? (
         // products.slice(randomIndex, randomIndex + 4).map((product) => (
-        <div className="flex justify-center items-center gap-10 p-20">
+        <div className="flex justify-center items-center h-fit gap-10 p-20">
           <Card
             key={products[19].id}
             item={products[19].title}
