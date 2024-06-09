@@ -36,7 +36,7 @@ const SecondPage: React.FC = () => {
 
   return (
     <div className="flex flex-col justify-center  h-screen w-screen bg-yellow-500">
-      <h2 className="text-3xl font-heavitas ml-20 ">New Arrivals</h2>
+      <h2 className="text-5xl font-heavitas ml-20 ">New Arrivals</h2>
       {products.length > 0 ? (
         // products.slice(randomIndex, randomIndex + 4).map((product) => (
         <div className="flex justify-center items-center gap-10 p-20">
@@ -46,9 +46,9 @@ const SecondPage: React.FC = () => {
             image={products[19].image}
           />
           <Card
-            key={products[13].id}
-            item={products[13].title}
-            image={products[13].image}
+            key={products[15].id}
+            item={products[15].title}
+            image={products[15].image}
           />
           <Card
             key={products[2].id}
