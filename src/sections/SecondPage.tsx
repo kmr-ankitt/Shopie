@@ -35,7 +35,7 @@ const SecondPage: React.FC = () => {
   //   const randomIndex = Math.floor(Math.random() * (products.length - 3));
 
   return (
-    <div className="flex flex-col justify-center  h-screen w-screen bg-yellow-500">
+    <div className="flex flex-col justify-center text-black h-screen w-screen bg-yellow-500">
       <h2 className="text-5xl font-heavitas ml-20 ">New Arrivals</h2>
       {products.length > 0 ? (
         // products.slice(randomIndex, randomIndex + 4).map((product) => (
